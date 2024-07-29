@@ -1,5 +1,14 @@
 import requests
 import csv
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+APP_ID = os.getenv('PINTEREST_APP_ID')
+APP_SECRET = os.getenv('PINTEREST_APP_SECRET')
+ACCESS_TOKEN = os.getenv('PINTEREST_ACCESS_TOKEN')
 
 def get_access_token(app_id, app_secret, code):
     url = 'https://api.pinterest.com/v1/oauth/token'
@@ -34,13 +43,8 @@ def save_to_csv(data, filename):
             writer.writerow([row['id'], row['link'], row['note'], row['image']['original']['url'], row['created_at']])
 
 if __name__ == "__main__":
-    # Replace with your actual values once you get them
-    APP_ID = 'YOUR_APP_ID'
-    APP_SECRET = 'YOUR_APP_SECRET'
-    ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'  # You'll get this after following the OAuth process
     QUERY = 'fashion trends'
 
-    # For initial testing, you can use mock data or skip this part
     # Uncomment the following lines once you have the code and access token
     # CODE = 'CODE_FROM_REDIRECT_URL'
     # access_token_info = get_access_token(APP_ID, APP_SECRET, CODE)

@@ -11,6 +11,7 @@ As someone passionate about both fashion and technology, I created the Fashion T
   - `data_collection.py`: Placeholder for future data collection scripts.
   - `fetch_pinterest_data.py`: Script to fetch data from Pinterest API and save it to a CSV file.
 - `venv/`: Virtual environment for managing project dependencies.
+- `.env`: Environment variables file containing sensitive credentials (not included in the repository).
 - `.gitignore`: Specifies files and directories to be ignored by Git.
 - `requirements.txt`: Lists the Python dependencies required for the project.
 - `README.md`: Project documentation.
