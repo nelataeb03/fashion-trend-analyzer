@@ -14,7 +14,6 @@ As someone passionate about both fashion and technology, I created the Fashion T
 - `.gitignore`: Specifies files and directories to be ignored by Git.
 - `requirements.txt`: Lists the Python dependencies required for the project.
 - `README.md`: Project documentation.
-- `privacy-policy.html`: Privacy policy for the project.
 
 ## Privacy Policy
 
