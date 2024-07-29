@@ -1,4 +1,1 @@
 requests
-beautifulsoup4
-nltk
-matplotlib
