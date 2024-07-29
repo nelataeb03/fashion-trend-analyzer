@@ -17,7 +17,7 @@ As someone passionate about both fashion and technology, I created the Fashion T
 
 ## Privacy Policy
 
-My privacy policy can be found here: [https://nelataeb.com/privacy-policy.html](https://nelataeb.com/privacy-policy.html)
+My privacy policy can be found [here](https://nelataeb.com/privacy-policy.html)
 
 ## Future Improvements
 
