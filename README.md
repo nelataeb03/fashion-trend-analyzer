@@ -6,19 +6,6 @@ As someone passionate about both fashion and technology, I created the Fashion T
 
 ## Project Structure
 
-fashion-trend-analyzer/
-│
-├── src/
-│ ├── init.py
-│ ├── data_collection.py
-│ ├── fetch_pinterest_data.py
-│
-├── venv/
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
-
 - `src/`: Contains the source code for the project.
   - `__init__.py`: Makes this directory a Python package.
   - `data_collection.py`: Placeholder for future data collection scripts.
