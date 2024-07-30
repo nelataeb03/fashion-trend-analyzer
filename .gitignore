@@ -1,9 +1,15 @@
-# Virtual environment
-venv/
+# Ignore the virtual environment directory
+env/
 
-# Environment variables file
-.env
+# Ignore data and images
+data/images/
 
-# Python cache files
+# Ignore Python cache files
 __pycache__/
 *.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variable file
+.env

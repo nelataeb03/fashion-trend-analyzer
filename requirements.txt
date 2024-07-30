@@ -1,2 +1,4 @@
-requests
-python-dotenv
+instaloader
+tensorflow
+matplotlib
+numpy
