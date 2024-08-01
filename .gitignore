@@ -13,3 +13,6 @@ __pycache__/
 
 # Ignore environment variable file
 .env
+
+# Gcp access key
+*.json

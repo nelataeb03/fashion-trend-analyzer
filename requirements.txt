@@ -2,3 +2,7 @@ instaloader
 tensorflow
 matplotlib
 numpy
+pandas
+google-cloud-storage
+pymongo
+python-dotenv
