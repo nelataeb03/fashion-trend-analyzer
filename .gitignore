@@ -16,3 +16,6 @@ __pycache__/
 
 # Gcp access key
 *.json
+
+# mmfashion model
+mmfashion/
