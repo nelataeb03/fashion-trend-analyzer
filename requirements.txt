@@ -6,3 +6,4 @@ pandas
 google-cloud-storage
 pymongo
 python-dotenv
+certifi
