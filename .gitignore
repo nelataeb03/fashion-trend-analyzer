@@ -17,5 +17,5 @@ __pycache__/
 # Gcp access key
 *.json
 
-# mmfashion model
-# mmfashion/
+# Huge Deep Fashion data set
+deepfashion/
