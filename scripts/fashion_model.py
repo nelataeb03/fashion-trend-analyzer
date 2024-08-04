@@ -12,7 +12,7 @@ class FashionModel(nn.Module):
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2, padding=0)
         self.fc1 = nn.Linear(64 * 32 * 32, 128)  # Adjust dimensions as necessary
         self.fc2 = nn.Linear(128, 50)  # 50 categories
-        self.fc3 = nn.Linear(128, 1000)  # 1000 attributes
+        self.fc3 = nn.Linear(128, 26)  # 26 attributes
 
     def forward(self, x):
         x = self.pool(F.relu(self.conv1(x)))
@@ -22,5 +22,3 @@ class FashionModel(nn.Module):
         category_output = self.fc2(x)
         attribute_output = self.fc3(x)
         return category_output, attribute_output
-
-
