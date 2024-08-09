@@ -16,6 +16,7 @@ The Fashion Trend Analyzer project leverages machine learning and image processi
  - posts.csv: CSV file containing the posts metadata extracted from Instagram.
 
 ### 2. Images
+Images were collected from the top 40 fashion accounts on Instagram using [Apify](https://apify.com/apify/instagram-scraper?utm_term=instagram%20scraping&utm_campaign=Apify-Actors-WV+%7C+24052024&utm_source=adwords&utm_medium=ppc&hsa_acc=9303439903&hsa_cam=21500036373&hsa_grp=165212299397&hsa_ad=707009907329&hsa_src=g&hsa_tgt=kwd-308277291993&hsa_kw=instagram%20scraping&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw_Na1BhAlEiwAM-dm7OA87tT7ad4CzL5E288r2myvbn4H95l6qCGk4DFuFlVDlZ7DeH1adhoCcy4QAvD_BwE)
 - clustered_images/: Directory where images organized by cluster are saved.
 - original_images/: Directory containing the original images downloaded from Instagram.
 - segmented_images/: Directory containing segmented images after the image segmentation process.
