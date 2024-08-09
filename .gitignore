@@ -1,21 +1,7 @@
-# Ignore the virtual environment directory
 venv/
-
-# Ignore data and images
-data/images/
-
-# Ignore Python cache files
+old_scripts/
 __pycache__/
 *.pyc
-
-# Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore environment variable file
+*.pth
 .env
-
-# Gcp access key
-*.json
-
-# Huge Deep Fashion data set
-deepfashion/
+.DS_Store

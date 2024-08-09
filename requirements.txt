@@ -1,9 +1,11 @@
-instaloader
-tensorflow
-matplotlib
-numpy
-pandas
-google-cloud-storage
-pymongo
-python-dotenv
-certifi
+Python 3.11
+TensorFlow
+Keras
+Scikit-learn
+OpenCV
+Pandas
+Seaborn
+Matplotlib
+Instaloader
+HDF5
+YOLOv5
